@@ -159,6 +159,16 @@ local mappings = {
       "Workspace Symbols",
     },
   },
+
+  r = {
+    name = "Test",
+    n = { "<cmd>TestNearest<cr>", "Run Nearest Test" },
+    f = { "<cmd>TestFile<cr>", "Run Test File"},
+    s = { "<cmd>TestSuite<cr>", "Run Test Suite" },
+    l = { "<cmd>TestLast<cr>", "Run Last Test" },
+    v = { "<cmd>TestVisit<cr>", "Visit Last Test" },
+  },
+
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
