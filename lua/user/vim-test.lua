@@ -1,9 +1,5 @@
-local status_ok, vimtest = pcall(require, "vim-test")
-if not status_ok then
-  return
-end
+-- apparently vim addons don't need to be required
 
-vim.cmd [[
-  let#test#python#runner = "nose"
-  let#test#python#pytest#executable = "docker exec testing /opt/conda/bin/py.test"
-]]
+vim.g["test#python#runner"] = "pytest"
+vim.g["test#python#pytest#executable"] = "docker exec TESTING /opt/conda/bin/pytest"
+
