@@ -16,3 +16,7 @@ Testing has been set up to work for pytest only within a docker container. The p
 to run the testing. To configure the testing container, create a docker container with the command:
 `docker run -dit -rm --name testing -v "/LOCAL/REPO:/CONTAINER/HOMEDIR" CONTAINER bash`
 
+## Useful Commands
+| Command | Action|
+---|---
+echo maparg("<leader>q","n") | View action executed by keymap
