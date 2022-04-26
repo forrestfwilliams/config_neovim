@@ -160,6 +160,13 @@ local mappings = {
     },
   },
 
+  m = {
+    name = "Markdown",
+    d = { "<cmd>MarkdownPreview solarized-dark<cr>", "Preview solarized-dark"},
+    g = { "<cmd>MarkdownPreview github<cr>", "Preview github" },
+    l = { "<cmd>MarkdownPreview solarized-light<cr>", "Preview solarized-light"},
+  },
+
   r = {
     name = "Test",
     n = { "<cmd>TestNearest<cr>", "Run Nearest Test" },

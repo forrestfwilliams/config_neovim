@@ -60,6 +60,9 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
   use "vim-test/vim-test"
 
+  -- Markdown
+  use "davidgranstrom/nvim-markdown-preview"
+
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
